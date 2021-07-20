@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+
+/*  --------------------
+Body styles 
+--------------------
+ */
+ body {
+background: radial-gradient(orange, purple 40%, beige );
+padding-bottom: 50px;
+ }
+
+ 
+/*  --------------------
+Section styles 
+--------------------
+ */
+ 
+ p.warning{
+ border: 1px solid black;
+ padding: 15px 1px;
+ width: 50%;
+ }
+ 
+ section#middle {
+ padding: 0px 10px;
+ float:left;
+ width:65%;
+ }
+ 
+
+  
+ section#right{
+ width: 30%;
+ float: left;
+ right: 1%;
+ }
+ 
+ section#right a {
+ text-decoration: none;
+color: white;
+ 
+ }
+ 
+ section#right ul li ul{
+width: 30%;
+font-size: 0.85em;
+list-style-type: circle;
+ }
+ 
+
+ /*  --------------------
+Pictures or Videos
+--------------------
+ */
+ 
+ 
+img.salsa{
+ margin: 0px 10px;
+ float: left;
+ width: 30%;
+ box-shadow: 5px -5px 5px rgb(221, 210, 247);
+ }
+ 
+ figure.reggaeton {
+ margin: 0px 10px;
+ float: left;
+ width: 30%;
+
+ }
+figure.reggaeton img{
+height: 200px;
+ box-shadow: 5px -5px 5px rgb(221, 210, 247);
+}
+
+video {
+width: 500px;
+height: 400px;
+}
+
+caption{
+display: bottom;
+caption-side: bottom;
+}
+
+/*  --------------------
+Footer styles 
+--------------------
+ */
+
+ 
+ 

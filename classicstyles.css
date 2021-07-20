@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+
+body {
+margin: 0px 100px;
+}
+
+/*  --------------------
+Section styles 
+--------------------
+ */
+ 
+ section#left {
+ float: left;
+ height: 500px;
+ margin: 30px;
+ }
+ 
+ 
+
+
+/*  --------------------
+Table styles 
+--------------------
+ */
+ 
+ 
+ table, td, th {
+ border: 2px solid black;
+ border-collapse: collapse;
+ }
+ 
+ thead#titles {
+ background-color: orange;
+ }
+
+
+tbody tr#periods {
+background-color: white;
+}

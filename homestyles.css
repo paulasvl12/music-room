@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+
+
+
+ 
+ 
+
+/*  --------------------
+Section styles 
+--------------------
+ */
+
+section#left > img {
+border: 1px solid black;
+box-shadow: gray 1px -1px 5px;
+height: 800px;
+
+}
+
+section#left {
+padding: 0px 10px;
+margin: 30px 0px;
+float: left;
+}
+
+section#middle  h1 {
+position: absolute;
+top: 100px;
+font: 2em Brush Script MT, Brush Script Std, cursive;
+color: rgb(153,50,204);
+text-align: left;
+}
+
+section#middle {
+position: relative;
+width: 30%;
+float: left;
+font: 14pt Bookman, serif;
+text-align: justify;
+height: 400px;
+margin: 0px 40px;
+}
+
+section#middle p {
+position: absolute;
+top: 200px;
+
+}
+
+section#right {
+position: relative;
+top: 100px;
+padding: 20px;
+width: 25%;
+float: left;
+margin-left: 20px;
+}
+
+fieldset#userInfo > * {
+display: -webkit-flex;
+display: flex;
+flex-flow: row wrap;
+flex: 1 1 50px;
+}
+
+input[type='submit'], input[type='reset'] {
+margin: 10px auto;
+text-align: center;
+display: flex;
+flex: 1 1 auto;
+}
+
+input#userEmail:focus:invalid {
+background-color: rgb(246, 182, 182);
+}
+
+div#video {
+position: absolute;
+top: 450px;
+margin: 10px auto;
+}
+
+
+
+/* Media Query for Mobile Devices */
+
+
+@media only screen and (max-width: 461px) {
+
+section#middle p {
+position: absolute;
+top: 170px;
+width: 200%;
+}
+
+section#middle {
+margin-bottom: 300px;
+}
+
+
+
+}
+
+
+
+

@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+
+/* --------------------
+    Header Styles
+    --------------------
+*/
+
+header > img{
+width: 100%;
+border: 3px solid black;
+}
+
+a#navicon {
+display: none;
+}
+
+
+/*  --------------------
+Body styles 
+--------------------
+ */
+ body::after{
+ clear: both;
+ content: "";
+ display: table;
+ 
+ }
+
+html{
+background-color: black;
+}
+
+section#middle  h1 {
+
+font: 2em Brush Script MT, Brush Script Std, cursive;
+color: rgb(153,50,204);
+text-align: left;
+}
+
+body {
+width: 90%;
+background-color: rgb(255,253,208);
+margin: 10px auto;
+font: 14pt Bookman, serif;
+}
+
+body > header > nav#main ul {
+display: -webkit-flex;
+display: flex;
+-webkit-flex-flow: row nowrap;
+flex-flow: row nowrap;
+-webkit-justify-content: center;
+justify-content: center;
+background-color: rgb(252, 102, 3);
+}
+
+
+body > header > nav#main > ul > li {
+float: left;
+width: 100%;
+flex: 1 1 auto;
+padding: 0px 10px;
+list-style-type: none;
+font: 1.5em Brush Script MT, Brush Script Std, cursive;
+}
+
+nav#main > ul > li a {
+text-decoration: none;
+color: white;
+}
+
+
+
+/*  --------------------
+Footer styles 
+–All footers should have the same fonts, colors, sizes, but
+all pages will have different cited sources, except for the home page
+which will have Contact Info
+--------------------
+ */
+footer {
+text-align: center;
+font: 14pt Bookman, serif;
+clear: both;
+background: pink;
+padding: 10px 30px;
+box-shadow: inset 4px 4px 60px rgb(255,102,255),
+ 			inset -4px -4px 60px rgb(255,102,255);
+
+}
+
+footer h1{
+font: 22pt Brush Script MT, Brush Script Std, cursive; 
+color: white;
+text-decoration: underline;
+}
+ 
+ 
+ 
+
+/* Media Query for Mobile devices */
+@media only screen and (max-width: 461px) {
+
+nav#main ul, section#right, section#left, aside {
+display: none;
+}
+
+img, table, div#video, video, audio, figure{
+display: none;
+}
+
+
+
+
+}

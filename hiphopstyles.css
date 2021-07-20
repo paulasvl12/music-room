@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/*  --------------------
+Body/Section styles 
+--------------------
+ */
+
+body{
+background: url("hiphopbackground.jpg") round;
+}
+
+section#middle {
+width: 70%;
+float: left;
+}
+section#middle h1{
+color: white;
+}
+ p#first{
+color: white;
+background-color: rgba(8, 82, 41, 0.5);
+}
+
+aside{
+margin: 0px 10px;
+background-color: rgb(8, 82, 41);
+width: 28%;
+float: left;
+}
+
+aside > * {
+color: white;
+}
+aside img{
+height: 100px;
+width: 150px;
+}
+aside h1{
+text-align: center;
+}
+
+/*  --------------------
+Flex styles 
+–All artists with their names and pictures should be in a 
+series of "boxes" that are flex boxes with wrapping
+--------------------
+ */
+ 
+ div.artists {
+ display: flex;
+ flex-flow: row wrap;
+ }
+ 
+ div.artists article {
+background: radial-gradient(white 30%, rgb(103, 230, 120));
+border: 1px solid rgb(8, 82, 41);
+border-radius: 20px;
+margin: 10px 10px;
+ flex: 1 1 150px;
+ }
+ 
+ div.artists > * {
+ padding: 10px 20px;
+ }
+ 
+ div.artists img.picture {
+ width: 200px;
+ height: 150px;
+margin: 10px auto;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
