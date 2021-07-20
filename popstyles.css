@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+
+/*  --------------------
+Body styles 
+--------------------
+ */
+body {
+min-height: 100%:
+overflow: scroll;
+}
+
+ 
+/*  --------------------
+Section styles 
+--------------------
+ */
+ 
+ section#middle {
+ float: left;
+ text-align: justify;
+margin: 0px 20px;
+width: 35%;
+ }
+
+ 
+ section#left img {
+ width: 30%;
+ height: 700px;
+ float: left;
+ }
+ 
+ section#left legend{
+ font-size: 9pt;
+ position: absolute;
+ top: 1180px;
+ }
+ 
+
+ 
+section#right > ul#borders {
+width: 25%;
+font-weight: bold;
+list-style-type: none;
+display: block;
+border: 3px dotted black;
+margin-left: 20px;
+padding: 0px;
+float: left;
+line-height: 2em;
+}
+
+
+section#right h3 {
+margin: 0px auto;
+}
+
+ul#borders ul {
+list-style-type: none;
+font-size: 0.9em;
+}
+
+
+ul#borders  a:link , a:visited{
+text-decoration: none;
+color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
